@@ -1,0 +1,20 @@
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+
+        result = nums[0]
+        l, r = 0 , len(nums)-1
+
+        while l <=r:
+            if nums[l] < nums[r]:
+                result = min(result, nums[l])
+                break 
+                # it is sorted any no rotation hasn't been done
+
+            m = (l+r) // 2
+
+
+        
+         
+    
+        
+        
